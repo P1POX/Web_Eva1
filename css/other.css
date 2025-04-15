@@ -1,0 +1,70 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+.nav-top {
+    font-size: 12px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-info p {
+    margin: 5px 0 0 0;
+}
+
+.product-info .category {
+    display: block;
+}
+
+.footer-logo span {
+    display: block;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.footer-info h4 {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-info li {
+    margin-bottom: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.footer-logos img,
+.footer-secure img {
+    height: 30px;
+}
+
+.footer-column ul li {
+    color: #ababab;
+}
+  
+.footer-secure img {
+    padding-left: 20px;
+}

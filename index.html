@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseBar</title>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/size.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/other.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-top">
+            <div class="nav-item nav-left">
+                <p>
+                    Estas comprando en: 
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span class="region">Región Metropolitana</span>
+                </p>
+            </div>
+            <div class="nav-item nav-center">
+                <p>Despacho de 1 a 3 días hábiles</p>
+            </div>  
+            <div class="nav-item nav-right">
+                <button class="btn-login">
+                    <svg width="16" height="18" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.83325 22.5C1.83325 17.9897 5.4896 14.3333 9.99992 14.3333C14.5103 14.3333 18.1666 17.9897 18.1666 22.5M14.6666 6.16667C14.6666 8.744 12.5772 10.8333 9.99992 10.8333C7.42259 10.8333 5.33325 8.744 5.33325 6.16667C5.33325 3.58934 7.42259 1.5 9.99992 1.5C12.5772 1.5 14.6666 3.58934 14.6666 6.16667Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    &nbsp;
+                    Iniciar sesión
+                </button>
+                <button class="btn-featured">Ver ofertas</button>
+            </div>
+        </nav>
+        <nav class="nav-bar">
+            <div class="nav-item left">
+                <div class="hamburger-menu">
+                    <label for="hamburger-toggle" class="hamburger-button">
+                        <svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.83325 7H19.3332" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M1.83325 12.8333H19.3332" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M1.83325 1.16675H19.3332" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </label>
+                </div>
+                <div class="main-menu">
+                    <a href="#">VINOS</a>
+                    <a href="#">WHISKY</a>
+                    <a href="#">LICORES</a>
+                    <a href="#">BEBIDAS Y ENERGÉTICAS</a>
+                </div>
+            </div>
+            <div class="nav-item logo">
+                <img src="img/navLogo.png" width="100%" alt="HouseBar Logo">
+            </div>
+            <div class="nav-item right">
+                <a href="#">CERVEZA</a>
+                <a href="#">COCTEL</a>
+                <a href="#">PISCO</a>
+                <a href="#">ESPUMANTES</a>
+                <a href="#">MARCAS</a>
+                <a href="#"><img src="img/lupa.png" alt=" " width="20px" height="20px"></a>
+                <button class="btn-cart">
+                    <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.375 0.125C0.893067 0.125 0.5 0.518067 0.5 1C0.5 1.48193 0.893067 1.875 1.375 1.875H3.31641L5.61328 11.0625C5.80811 11.8418 6.50537 12.375 7.30859 12.375H17.3438C18.1333 12.375 18.8032 11.8521 19.0117 11.0898L21.2812 2.75H6.625L7.0625 4.5H19.0117L17.3438 10.625H7.30859L5.01172 1.4375C4.81689 0.658203 4.11963 0.125 3.31641 0.125H1.375ZM16.25 12.375C14.811 12.375 13.625 13.561 13.625 15C13.625 16.439 14.811 17.625 16.25 17.625C17.689 17.625 18.875 16.439 18.875 15C18.875 13.561 17.689 12.375 16.25 12.375ZM8.375 12.375C6.93604 12.375 5.75 13.561 5.75 15C5.75 16.439 6.93604 17.625 8.375 17.625C9.81396 17.625 11 16.439 11 15C11 13.561 9.81396 12.375 8.375 12.375ZM8.375 14.125C8.86719 14.125 9.25 14.5078 9.25 15C9.25 15.4922 8.86719 15.875 8.375 15.875C7.88281 15.875 7.5 15.4922 7.5 15C7.5 14.5078 7.88281 14.125 8.375 14.125ZM16.25 14.125C16.7422 14.125 17.125 14.5078 17.125 15C17.125 15.4922 16.7422 15.875 16.25 15.875C15.7578 15.875 15.375 15.4922 15.375 15C15.375 14.5078 15.7578 14.125 16.25 14.125Z" fill="black"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider-banner">
+                <input type="checkbox" id="hamburger-toggle" class="hamburger-checkbox">
+                <div class="dropdown-menu">
+                    <div class="dropdown-column">
+                        <h3>COTIZA AL MAYOR</h3>
+                        <a href="#">VINOS</a>
+                        <a href="#">WHISKY</a>
+                        <a href="#">LICORES</a>
+                        <a href="#">BEBIDAS Y ENERGÉTICAS</a>
+                        <a href="#">CERVEZA</a>
+                        <a href="#">COCTEL</a>
+                        <a href="#">PISCO</a>
+                        <a href="#">ESPUMANTES</a>
+                        <a href="#">MARCAS</a>
+                    </div>
+                </div>
+                <img src="img/banner.png" width="100%" alt="HouseBar Banner">
+            </div>
+        </div>
+        <div class="container">
+            <div class="products">
+                <section class="promo-bar">
+                    <div class="promo-text">
+                        <span>¡OFERTAS IMPERDIBLES!</span>
+                        <button class="promo-btn">VER TODO</button>
+                    </div>
+                    <div class="promo-timer">
+                        <img src="img/cronometro.svg" alt="cronómetro" class="promo-icon">
+                        <div class="timer">
+                            <div><span class="num">5</span><span class="label">DÍAS</span></div>
+                            <div><span class="num">13</span><span class="label">HORAS</span></div>
+                            <div><span class="num">29</span><span class="label">MIN</span></div>
+                            <div><span class="num">20</span><span class="label">SEG</span></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="featured">
+                    <h2 class="featured-title">OFERTAS DESTACADAS</h2>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <span class="discount">-51%</span>
+                            <img src="img/producto1.png" alt="Producto 1">
+                            <div class="product-info">
+                                <div class="stars">☆☆☆☆☆</div>
+                                <span class="category">Bebidas</span>
+                                <p class="product-name">Pack 12x Mr. Big Panther Zero</p>
+                            </div>
+                            <div class="product-prices">
+                                <span class="old-price">$22.690</span>
+                                <span class="new-price">$11.040</span>
+                            </div>
+                            <div class="product-actions">
+                                <div class="quantity-selector">
+                                    <button class="qty-btn disabled">-</button>
+                                    <input type="text" value="1" readonly>
+                                    <button class="qty-btn">+</button>
+                                </div>
+                                <button class="buy-btn">COMPRAR AHORA</button>
+                            </div>                            
+                        </div>
+                        <div class="product-card">
+                            <span class="discount">-44%</span>
+                            <img src="img/producto2.png" alt="Producto 2">
+                            <div class="product-info">
+                                <div class="stars">☆☆☆☆☆</div>
+                                <span class="category">Coctel</span>
+                                <p class="product-name">Pack 2xSour Secreto Peruano Limón + 12xBebida Energética Mr. Big Sugar Free</p>
+                            </div>
+                            <div class="product-prices">
+                                <span class="old-price">$31.690</span>
+                                <span class="new-price">$17.620</span>
+                            </div>
+                            <div class="product-actions">
+                                <div class="quantity-selector">
+                                    <button class="qty-btn disabled">-</button>
+                                    <input type="text" value="1" readonly>
+                                    <button class="qty-btn">+</button>
+                                </div>
+                                <button class="buy-btn">COMPRAR AHORA</button>
+                            </div> 
+                        </div>
+                        <div class="product-card">
+                            <span class="discount">-43%</span>
+                            <img src="img/producto3.png" alt="Producto 3">
+                            <div class="product-info">
+                                <div class="stars">☆☆☆☆☆</div>
+                                <span class="category">Espumantes</span>
+                                <p class="product-name">Espumante Undurraga Rose 750cc</p>
+                            </div>
+                            <div class="product-prices">
+                                <span class="old-price">$6.990</span>
+                                <span class="new-price">$3.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <div class="quantity-selector">
+                                    <button class="qty-btn disabled">-</button>
+                                    <input type="text" value="1" readonly>
+                                    <button class="qty-btn">+</button>
+                                </div>
+                                <button class="buy-btn">COMPRAR AHORA</button>
+                            </div> 
+                        </div>
+                        <div class="product-card">
+                            <span class="discount">-42%</span>
+                            <img src="img/producto4.png" alt="Producto 4">
+                            <div class="product-info">
+                                <div class="stars">☆☆☆☆☆</div>
+                                <span class="category">Vinos</span>
+                                <p class="product-name">Vino Arboleda Two Pack CM+CS</p>
+                            </div>
+                            <div class="product-prices">
+                                <span class="old-price">$37.890</span>
+                                <span class="new-price">$21.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <div class="quantity-selector">
+                                    <button class="qty-btn disabled">-</button>
+                                    <input type="text" value="1" readonly>
+                                    <button class="qty-btn">+</button>
+                                </div>
+                                <button class="buy-btn">COMPRAR AHORA</button>
+                            </div> 
+                        </div>
+                    </div>
+                </section>                
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-tags">
+            <div class="footer-logo">
+                <img src="img/footerLogo.png" alt="HouseBar Logo" width="100%">
+            </div>
+            <button>Jack Daniels</button>
+            <button>Gin</button>
+            <button>Cervezas</button>
+            <button>Jagermeister</button>
+            <button>Miniatura</button>
+            <button>Disaronno</button>
+            <button>Fentimans</button>
+            <button>Ron</button>
+            <button>Mr Big</button>
+            <button>Whisky</button>
+        </div>
+        <div class="footer-info">
+            <div class="footer-row">
+                <div class="footer-column">
+                    <h4>INSTITUCIONAL</h4>
+                    <ul>
+                        <li>Sobre Nosotros</li>
+                        <li>Política de devolución</li>
+                        <li>Términos y Condiciones</li>
+                        <li>Política de despacho</li>
+                        <li>Preguntas Frecuentes</li>
+                        <li>Canal de denuncia</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>CONTACTO</h4>
+                    <ul>
+                        <li>WhatsApp: +56 9 4432 7051</li>
+                        <li>soportehousebar@desa.cl</li>
+                        <li>Av La Montaña 776, Lampa, Región Metropolitana</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>REDES SOCIALES</h4>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-row-bottom">
+                <div class="footer-logos">
+                    <img src="img/vtex.png" alt="VTEX">
+                    <img src="img/propulsow.png" alt="Propulsow">
+                </div>
+                <div class="footer-secure">
+                    <img src="img/ssl.png" alt="SSL">
+                    <img src="img/tarjetas.png" alt="Tarjetas">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
