@@ -21,6 +21,12 @@
     border: none;
 }
 
+.btn-featured:hover {
+    background-color: #ff6b4a;
+    color: white;
+    box-shadow: 0 0 10px #ea4d2c;
+}
+
 .nav-bar {
     color: #4b4b4b;
     box-shadow: inset 0 -1px #ddd;
@@ -28,6 +34,14 @@
 
 .nav-item a {
     color: #4b4b4b;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.dropdown-column a:hover {
+    color: #ea4d2c;
 }
 
 .promo-bar {
@@ -39,6 +53,12 @@
     background-color: #ea4d2c;
     color: white;
     border: none;
+}
+
+.promo-btn:hover {
+    background-color: #ff6b4a;
+    color: white;
+    box-shadow: 0 0 10px #ea4d2c;
 }
 
 .num {
@@ -89,13 +109,29 @@
     color: white;
 }
 
+.buy-btn:hover {
+    background-color: #333;
+    color: white;
+    box-shadow: 0 0 10px #000;
+}
+
 .footer {
     background-color: #181818;
     color: #fff;
 }
 
+.footer-tags button:hover {
+    background-color: #ea4d2c;
+    color: white;
+    box-shadow: 0 0 10px #000;
+}
+
 .footer-column ul li {
     color: #ababab;
+}
+
+.footer-column ul li:hover {
+    color: #fff;
 }
 
 .footer-bottom {
